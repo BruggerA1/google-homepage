@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Icons"
+		/>
+		<title>Google</title>
+	</head>
+
+	<body>
+		<div id="topBar" class="flex bar">
+			<div id="topLeftBar" class="flex">
+				<a id="linkAbout" class="linkText" href="#">About</a>
+				<a id="linkStore" class="linkText" href="#">Store</a>
+			</div>
+
+			<div id="topRightBar" class="flex">
+				<a id="linkGmail" class="linkText" href="#">Gmail</a>
+				<a id="linkImages"  class="linkText" href="#">Images</a>
+				<span id="linkApps" class="material-icons"> apps </span>
+				<input id="signInButton" type="button" value="Sign in">
+			</div>
+		</div>
+
+		<div id="mainContent" class="flex">
+			<img id="googleLogo" src="googleLogo.png" alt="Google Logo" />
+
+			<div id="searchContainer" class="flex">
+				<span id="searchIcon" class="material-icons"> search </span>
+				<input id="searchBox" type="text" />
+				<a id="micButton" href="#">
+					<span id="searchMic" class="material-icons"> mic </span>
+				</a>
+			</div>
+			<div id="buttonContainer">
+				<input id="searchButton" class="mainButton" type="button" value="Google Search">
+				<input id="luckyButton" class="mainButton" type="button" value="I'm Feeling Lucky">
+		</div>
+
+		<div id="bottomBar" class="flex bar">
+			<div id="bottomLeftBar" class="flex">
+				<a id="linkAds" class="linkText" href="#">Advertising</a>
+				<a id="linkBusiness" class="linkText" href="#">Business</a>
+				<a id="linkHow" class="linkText" href="#">How Search Works</a>
+			</div>
+
+			<div id="bottomRightBar" class="flex">
+				<a id="linkPrivacy" class="linkText" href="#">Privacy</a>
+				<a id="linkTerms" class="linkText" href="#">Terms</a>
+				<a id="linkSettings" class="linkText" href="#">Settings</a>
+			</div>
+		</div>
+	</body>
+</html>
